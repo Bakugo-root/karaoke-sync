@@ -59,7 +59,7 @@ pip install -r requirements.txt
 ### 3. Run
 
 ```bash
-python src/karaoke2.0.py
+python src/karaoke.py
 ```
 
 Then open YouTube Music or Spotify Web in Chrome and play a song.
@@ -86,7 +86,7 @@ karaoke-sync/
 │   ├── background.js      # WebSocket client (service worker)
 │   └── content.js         # Captures playback data from the page
 ├── src/
-│   ├── karaoke2.0.py      # Main loop — track detection, lyrics display
+│   ├── karaoke.py      # Main loop — track detection, lyrics display
 │   ├── music.py           # Shared state, lyrics fetching (lrclib API)
 │   └── websocket.py       # WebSocket server — player lock management
 └── requirements.txt
