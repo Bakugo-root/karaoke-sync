@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Now Playing WS",
+    "version": "1.0",
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://127.0.0.1/*",
+        "ws://127.0.0.1/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.youtube.com/*",
+                "*://music.youtube.com/*",
+                "*://open.spotify.com/*",
+                "*://www.deezer.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}

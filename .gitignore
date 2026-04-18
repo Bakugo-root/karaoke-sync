@@ -1,0 +1,6 @@
+__pycache__/
+*.mp3
+*.wav
+backup.py
+interface.py
+TEST.py
