@@ -98,4 +98,4 @@ karaoke-sync/
 
 **Yasser** — Engineering student, seeking an apprenticeship starting September 2026 ideally based in Toulouse, in electronics, automation, robotics or software/embedded systems.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Yasser-blue)](www.linkedin.com/in/yasser-ben-ali-b0a157302)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Yasser-blue)](https://www.linkedin.com/in/yasser-ben-ali-b0a157302/)
